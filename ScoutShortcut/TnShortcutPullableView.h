@@ -8,6 +8,8 @@
 
 #import "TnPullableView.h"
 
-@interface TnShortcutPullableView : TnPullableView
+@interface TnShortcutPullableView : TnPullableView <UITableViewDataSource, UITableViewDelegate>
+
+@property (strong,nonatomic) UITableView * tableView;
 
 @end

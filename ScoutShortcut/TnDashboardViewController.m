@@ -17,14 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor whiteColor];
-    
     self.tabBarItem = [[UITabBarItem alloc] initWithTitle:NSLocalizedString(@"Map", nil)
                                                     image:nil
                                             selectedImage:nil];
     
-    CGFloat xOffset = 20;
+    self.view.backgroundColor = [UIColor greenColor];
+    [self setupShortcutView];
+}
 
+- (void) setupShortcutView {
+    CGFloat xOffset = 20;
+    
     CGFloat width = self.view.frame.size.width;
     CGFloat height = self.view.frame.size.height;
     
@@ -34,6 +37,7 @@
     pullUpView.closedCenter = CGPointMake(width/2, self.view.frame.size.height + 200);
     pullUpView.center = pullUpView.closedCenter;
     pullUpView.handleView.frame = CGRectMake(0, 0, width-2*xOffset, 40);
+    
     pullUpView.delegate = self;
     
     [self.view addSubview:pullUpView];
@@ -45,7 +49,6 @@
     pullUpLabel.text = @"SHORTCUTS";
     
     [pullUpView addSubview:pullUpLabel];
-
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
