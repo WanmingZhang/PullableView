@@ -10,12 +10,15 @@
 
 @implementation TnShortcutPullableView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        
+        self.handleView.backgroundColor = [UIColor colorWithRed:246 green:246 blue:246 alpha:1.0];
+    
+    }
+    return self;
 }
-*/
 
 @end

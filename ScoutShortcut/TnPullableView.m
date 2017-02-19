@@ -41,7 +41,6 @@
         
         [handleView addGestureRecognizer:dragRecognizer];
         
-        
         tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
         tapRecognizer.numberOfTapsRequired = 1;
         tapRecognizer.numberOfTouchesRequired = 1;
