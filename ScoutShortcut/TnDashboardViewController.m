@@ -42,10 +42,10 @@
     
     [self.view addSubview:pullUpView];
     
-    pullUpLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 4, width-2*xOffset, 20)];
+    pullUpLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 10, width-2*xOffset, 20)];
     pullUpLabel.textAlignment = NSTextAlignmentCenter;
     pullUpLabel.backgroundColor = [UIColor clearColor];
-    pullUpLabel.textColor = [UIColor lightGrayColor];
+    pullUpLabel.textColor = [UIColor darkTextColor];
     pullUpLabel.text = @"SHORTCUTS";
     
     [pullUpView addSubview:pullUpLabel];
@@ -58,9 +58,9 @@
 
 - (void)pullableView:(TnShortcutPullableView *)pView didChangeState:(BOOL)opened {
     if (opened) {
-        pullUpLabel.text = @"Now I'm open!";
+        //pullUpLabel.text = @"Now I'm open!";
     } else {
-        pullUpLabel.text = @"Now I'm closed, pull me up again!";
+        //pullUpLabel.text = @"Now I'm closed, pull me up again!";
     }
 }
 

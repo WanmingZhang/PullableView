@@ -7,7 +7,7 @@
 //
 
 #import "TnShortcutPullableView.h"
-
+#import <QuartzCore/QuartzCore.h>
 @interface TnShortcutPullableView()
 
 @property (strong,nonatomic) NSArray * content;
@@ -20,10 +20,25 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.handleView.backgroundColor = [UIColor colorWithRed:243 green:243 blue:243 alpha:1.0];
+        
+        [self configureHandleView];
         [self configureTableview];
     }
     return self;
+}
+
+
+-(void)configureHandleView {
+    UIColor * navBarColor = [UIColor colorWithRed:246/255.0 green:246/255.0 blue:246/255.0 alpha:1.0];
+    self.handleView.backgroundColor = navBarColor;
+    
+    // border radius
+    [self.handleView.layer setCornerRadius:3.0f];
+    
+    // border
+    [self.handleView.layer setBorderColor:[UIColor groupTableViewBackgroundColor].CGColor];
+    [self.handleView.layer setBorderWidth:1.0f];
+    
 }
 
  -(void)configureTableview
@@ -33,6 +48,7 @@
     self.tableView = [[UITableView alloc] initWithFrame:bounds style:UITableViewStylePlain];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    self.tableView.backgroundColor = [UIColor whiteColor];
     [self addSubview:self.tableView];
     
 }
