@@ -33,8 +33,8 @@
     
     pullUpView = [[TnShortcutPullableView alloc] initWithFrame:CGRectMake(xOffset, 0, width-2*xOffset, height)];
     
-    pullUpView.openedCenter = CGPointMake(width/2, self.view.frame.size.height);
-    pullUpView.closedCenter = CGPointMake(width/2, self.view.frame.size.height + 200);
+    pullUpView.openedCenter = CGPointMake(width/2, height);
+    pullUpView.closedCenter = CGPointMake(width/2, height + height/2 - 88);
     pullUpView.center = pullUpView.closedCenter;
     pullUpView.handleView.frame = CGRectMake(0, 0, width-2*xOffset, 40);
     
