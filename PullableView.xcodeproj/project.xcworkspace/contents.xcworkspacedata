@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ScoutShortcut.xcodeproj">
+      location = "self:/Users/wanmingz/Documents/ScoutShortcut/PullableView.xcodeproj">
    </FileRef>
 </Workspace>

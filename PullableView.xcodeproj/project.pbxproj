@@ -125,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F7B3787F1E5801ED00E39D61 /* Build configuration list for PBXProject "ScoutShortcut" */;
+			buildConfigurationList = F7B3787F1E5801ED00E39D61 /* Build configuration list for PBXProject "PullableView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -287,7 +287,7 @@
 				DEVELOPMENT_TEAM = 8R5SSX8RV5;
 				INFOPLIST_FILE = ScoutShortcut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ClaireZhang.ScoutShortcut;
+				PRODUCT_BUNDLE_IDENTIFIER = ClaireZhang.PullableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -300,7 +300,7 @@
 				DEVELOPMENT_TEAM = 8R5SSX8RV5;
 				INFOPLIST_FILE = ScoutShortcut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ClaireZhang.ScoutShortcut;
+				PRODUCT_BUNDLE_IDENTIFIER = ClaireZhang.PullableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -308,7 +308,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7B3787F1E5801ED00E39D61 /* Build configuration list for PBXProject "ScoutShortcut" */ = {
+		F7B3787F1E5801ED00E39D61 /* Build configuration list for PBXProject "PullableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7B378991E5801ED00E39D61 /* Debug */,

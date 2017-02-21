@@ -1,6 +1,6 @@
 //
 //  TnShortcutPullableView.h
-//  ScoutShortcut
+//  PullableView
 //
 //  Created by Zhang, Wanming - (p) on 2/18/17.
 //  Copyright © 2017 ClaireZhang. All rights reserved.
