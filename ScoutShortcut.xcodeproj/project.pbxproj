@@ -9,11 +9,9 @@
 /* Begin PBXBuildFile section */
 		F7B378891E5801ED00E39D61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B378881E5801ED00E39D61 /* main.m */; };
 		F7B3788C1E5801ED00E39D61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B3788B1E5801ED00E39D61 /* AppDelegate.m */; };
-		F7B3788F1E5801ED00E39D61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B3788E1E5801ED00E39D61 /* ViewController.m */; };
 		F7B378921E5801ED00E39D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B378901E5801ED00E39D61 /* Main.storyboard */; };
 		F7B378941E5801ED00E39D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B378931E5801ED00E39D61 /* Assets.xcassets */; };
 		F7B378971E5801ED00E39D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B378951E5801ED00E39D61 /* LaunchScreen.storyboard */; };
-		F7B378A21E5802A100E39D61 /* TnDashboardShortcutController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B3789F1E5802A100E39D61 /* TnDashboardShortcutController.m */; };
 		F7B378AE1E59493800E39D61 /* TnDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B378AD1E59493800E39D61 /* TnDashboardViewController.m */; };
 		F7B378B11E594AA100E39D61 /* TnPullableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B378B01E594AA100E39D61 /* TnPullableView.m */; };
 		F7B378B71E594FDC00E39D61 /* TnShortcutPullableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B378B61E594FDC00E39D61 /* TnShortcutPullableView.m */; };
@@ -24,14 +22,10 @@
 		F7B378881E5801ED00E39D61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7B3788A1E5801ED00E39D61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7B3788B1E5801ED00E39D61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F7B3788D1E5801ED00E39D61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F7B3788E1E5801ED00E39D61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F7B378911E5801ED00E39D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7B378931E5801ED00E39D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7B378961E5801ED00E39D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7B378981E5801ED00E39D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7B3789E1E5802A100E39D61 /* TnDashboardShortcutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TnDashboardShortcutController.h; sourceTree = "<group>"; };
-		F7B3789F1E5802A100E39D61 /* TnDashboardShortcutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TnDashboardShortcutController.m; sourceTree = "<group>"; };
 		F7B378AC1E59493800E39D61 /* TnDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TnDashboardViewController.h; sourceTree = "<group>"; };
 		F7B378AD1E59493800E39D61 /* TnDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TnDashboardViewController.m; sourceTree = "<group>"; };
 		F7B378AF1E594AA100E39D61 /* TnPullableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TnPullableView.h; sourceTree = "<group>"; };
@@ -90,10 +84,6 @@
 		F7B378871E5801ED00E39D61 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F7B3789E1E5802A100E39D61 /* TnDashboardShortcutController.h */,
-				F7B3789F1E5802A100E39D61 /* TnDashboardShortcutController.m */,
-				F7B3788D1E5801ED00E39D61 /* ViewController.h */,
-				F7B3788E1E5801ED00E39D61 /* ViewController.m */,
 				F7B378881E5801ED00E39D61 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -171,8 +161,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7B378A21E5802A100E39D61 /* TnDashboardShortcutController.m in Sources */,
-				F7B3788F1E5801ED00E39D61 /* ViewController.m in Sources */,
 				F7B3788C1E5801ED00E39D61 /* AppDelegate.m in Sources */,
 				F7B378B11E594AA100E39D61 /* TnPullableView.m in Sources */,
 				F7B378891E5801ED00E39D61 /* main.m in Sources */,
