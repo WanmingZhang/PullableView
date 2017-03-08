@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F72959941E6A177D002DFFAF /* ShortcutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F72959931E6A177D002DFFAF /* ShortcutTableViewController.m */; };
 		F7B378891E5801ED00E39D61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B378881E5801ED00E39D61 /* main.m */; };
 		F7B3788C1E5801ED00E39D61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B3788B1E5801ED00E39D61 /* AppDelegate.m */; };
 		F7B378921E5801ED00E39D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B378901E5801ED00E39D61 /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F72959921E6A177D002DFFAF /* ShortcutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortcutTableViewController.h; sourceTree = "<group>"; };
+		F72959931E6A177D002DFFAF /* ShortcutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortcutTableViewController.m; sourceTree = "<group>"; };
 		F7B378841E5801ED00E39D61 /* ScoutShortcut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoutShortcut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B378881E5801ED00E39D61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7B3788A1E5801ED00E39D61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				F7B378B01E594AA100E39D61 /* TnPullableView.m */,
 				F7B378B51E594FDC00E39D61 /* TnShortcutPullableView.h */,
 				F7B378B61E594FDC00E39D61 /* TnShortcutPullableView.m */,
+				F72959921E6A177D002DFFAF /* ShortcutTableViewController.h */,
+				F72959931E6A177D002DFFAF /* ShortcutTableViewController.m */,
 				F7B378901E5801ED00E39D61 /* Main.storyboard */,
 				F7B378931E5801ED00E39D61 /* Assets.xcassets */,
 				F7B378951E5801ED00E39D61 /* LaunchScreen.storyboard */,
@@ -162,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7B3788C1E5801ED00E39D61 /* AppDelegate.m in Sources */,
+				F72959941E6A177D002DFFAF /* ShortcutTableViewController.m in Sources */,
 				F7B378B11E594AA100E39D61 /* TnPullableView.m in Sources */,
 				F7B378891E5801ED00E39D61 /* main.m in Sources */,
 				F7B378AE1E59493800E39D61 /* TnDashboardViewController.m in Sources */,

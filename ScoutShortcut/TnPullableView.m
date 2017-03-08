@@ -122,7 +122,27 @@
         
         [self setOpened:op animated:animate];
     }
+    
+    /**
+     // Gets the velocity of the gesture in the axis, so it can be
+     // determined to which endpoint the state should be set.
+     
+     CGPoint vectorVelocity = [sender velocityInView:self.superview];
+     CGFloat axisVelocity = verticalAxis ? vectorVelocity.y : vectorVelocity.x;
+     
+     CGFloat progress = verticalAxis ? fabs(axisVelocity)/fabs(maxPos.y-minPos.y) : fabs(axisVelocity)/fabs(maxPos.x-minPos.x);
+     
+     BOOL shouldComplete = progress > 0.2;
+     
+     if (shouldComplete) {
+     [self setOpened:!opened animated:animate];
+     } else {
+     [self setOpened:opened animated:animate];
+     }
+
+    **/
 }
+
 
 - (void)handleTap:(UITapGestureRecognizer *)sender {
     
